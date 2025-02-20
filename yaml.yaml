@@ -1,0 +1,19 @@
+base_de_datos:
+  tipo: MySQL
+  host: localhost
+  puerto: 3306
+  credenciales:
+    usuario: root
+    contraseña: "mi_contraseña_segura"
+  nombre_base: ejemplo_db
+  tablas:
+    - nombre: usuarios
+      columnas:
+        - id
+        - nombre
+        - correo
+    - nombre: productos
+      columnas:
+        - id
+        - nombre
+        - precio
